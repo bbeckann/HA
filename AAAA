@@ -71,7 +71,7 @@ install_docker() {
 # ------------------------------------------------------------------------------
 install_hassio() {
   echo "Installing Hass.io..."
-  curl -sL "${HASSIO_INSTALLER}" | sudo bash -s -- -m qemuarm-64
+  curl -sL "${HASSIO_INSTALLER}" | bash -s -- -m qemuarm-64
 }
 
 # ------------------------------------------------------------------------------
