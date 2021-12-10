@@ -15,7 +15,7 @@ set -o pipefail # Return exit status of the last command in the pipe that failed
 # GLOBALS
 # ==============================================================================
 readonly HOSTNAME="armhassio"
-readonly HASSIO_INSTALLER="https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh"
+readonly HASSIO_INSTALLER="https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh"
 readonly REQUIREMENTS=(
   apparmor-utils
   apt-transport-https
